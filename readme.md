@@ -3,13 +3,21 @@ Repository of EACL 2023 paper
 Required packages:
 -----
 COMET-ATOMIC 2020 BART
+
 Download the COMET code from [here](https://storage.googleapis.com/ai2-mosaic-public/projects/mosaic-kgs/comet-atomic_2020_BART.zip)
+
 dgl>=0.9.1
+
 pytorch>=1.8.0
+
 numpy>=1.24.0
+
 tqdm>=4.64.1
+
 scikit-learn>=1.2.0
+
 transformers>=4.25.1
+
 spacy>=3.5.0
 
 Training of prior
