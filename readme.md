@@ -31,8 +31,8 @@ Training of Bayesian-Trans
 
     python main.py --cleanmode --model mure --prior rgcn_4000d_atomic_prior.pkl --kl-scaling 0.05 --cuda 1 --regularization_type mmd --batch 64 --mure-dim 50 --latent-dim 200 --expname mure_matres_sd22221 --sd 22221 --dropout 0.0
 
-Model checkpoints can be downloaded at [this link](https://drive.google.com/drive/folders/1_zddSW2Rbk4fXdp-vjNT4EMpJnm6R1d4?usp=sharing)
 Use the checkpoint to inference
 ----
+Model checkpoints and trained prior can be downloaded at [this link](https://drive.google.com/drive/folders/1_zddSW2Rbk4fXdp-vjNT4EMpJnm6R1d4?usp=sharing)
 
     python main.py --cleanmode --model mure --kl-scaling 0.010000 --cuda 1 --prior prior/rgcn_4000d_atomic_prior.pkl --dataset matres --batch 64 --mure-dim 50 --regularization_type mmd --latent-dim 200 --expname mure_matres_sd7221 --sd 7221 --skiptraining
